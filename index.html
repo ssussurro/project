@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>카페 띠아모</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/카페띠아모.css" rel="stylesheet" />
 </head>
 
@@ -94,7 +95,7 @@
 
         <section class="cont01" id="page2">
             <div class="inner">
-                <div class="left_text01">
+                <div data-aos="fade-right" class="left_text01">
                     <strong>#Gelato</strong>
                     <h3>띠아모만의 젤라또</h3>
                     <p>이탈리아 젤라또 정통 제조방법으로
@@ -106,7 +107,7 @@
                         <img src="img/cafe_tiamo/view more_icon.png" alt="오른쪽 화살표 아이콘" />
                     </a>
                 </div><!-- .left_text01 end -->
-                <div class="item01_wrap">
+                <div class="item01_wrap" data-aos="fade-up">
                     <div class="item01">
                         <img src="img/cafe_tiamo/item_1.png" alt="딸기요거트 젤라또" />
                         <div class="item_text">
@@ -198,7 +199,7 @@
 
         <section class="cont03" id="page4">
             <div class="inner">
-                <div class="left_wrap">
+                <div class="left_wrap" data-aos="fade-right">
                     <div class="left_text02">
                         <h3>With<br />
                             Cafe Tiamo</h3>
@@ -336,6 +337,11 @@
             </div><!-- .under_wrap end -->
         </div><!-- .inner end -->
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
